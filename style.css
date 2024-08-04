@@ -1,0 +1,185 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.primediv{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  padding: 50px;
+  font-weight: 100;
+
+}
+.divpart1{
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 400px;
+    font-weight:100;
+    border-radius: 30px;
+    background-color:#1125d4;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:35px;
+}
+.divpart1 .part1_1{
+    border-radius:50%;
+    height:160px;
+    width: 160px;
+    background-color:rgba(0, 0, 0, 0.158);
+    justify-content: center;
+}
+.part1_1 h4{
+    font-size: 45px;
+    font-weight:100;
+}
+.part1_1 .spans{
+    font-size: 15px;
+    opacity: 0.5;
+    font-weight: 100;
+    display: grid;
+}
+.yourresult{
+    font-size:25px;
+    font-weight:100;
+    opacity: 0.8;
+}
+.divpart1 h2{
+    font-size: 25px;
+    font-weight: 100;
+}
+.divpart1 p{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: system-ui;
+}
+
+.divpart2{
+    border:1px solid white;
+    width: 250px;
+    height: 420px;
+    padding:25px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+} 
+.divpart2 h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.class1{
+    display:flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+    border-radius: 10px;
+    background-color:rgba(255, 68, 0, 0.308);
+    
+}
+.class1 i{
+    color: orangered;
+}
+.class2{
+    display:flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+    border-radius: 10px;
+    background-color: rgba(218, 165, 32, 0.295);
+}
+.class2 i{
+    color: goldenrod;
+}
+.class3{
+    display:flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+    border-radius: 10px;
+    background-color: rgba(144, 238, 144, 0.356);
+}
+.class3 i{
+    color:lightgreen;
+}
+.class4{
+    display:flex;
+    justify-content: space-between;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 128, 0.137);
+}
+.class4 i{
+    color:navy;
+}
+.button{
+    background-color:darkslateblue;
+    color: white;
+    height: 30px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.btndiv{
+    padding: 45px 20px 20px 30px;
+}
+.classmain1{
+    padding-top: 30px;
+    
+}
+.classmain2{
+    padding-top: 30px;
+}
+.classmain3{
+    padding-top: 30px;
+}
+.classmain4{
+    padding-top: 30px;
+}
+.hundreed{
+    opacity: 0.5;
+}
+/* media screen  */
+@media only screen and (max-width:500px){
+    .primediv{
+        display:grid;
+        justify-content: center;
+        align-items:center;
+        padding: 10px;
+        font-weight:100;
+        padding: 10px;
+      }
+      .divpart1{
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 350px;
+        font-weight:100;
+        background-color:#1125d4;
+        color: white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        
+    }
+    .divpart2{
+        border:1px solid white;
+        width: 220px;
+        height: 450px;border-top-right-radius: 0px;
+        padding:25px;
+        border-top-left-radius: 0px;
+
+        box-shadow: 5px 5px 10px rgba(2, 0, 0, 0.135);
+    } 
+}
